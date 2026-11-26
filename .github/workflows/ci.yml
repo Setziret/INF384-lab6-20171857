@@ -31,4 +31,4 @@ jobs:
         run: npm audit --audit-level=high
 
       - name: Pruebas con cobertura (umbral 80% líneas)
-        run: npx jest --run --coverage
+        run: npx jest --coverage
