@@ -1,0 +1,102 @@
+{
+  "pbtResults": {
+    "1.2 Pruebas de propiedad de `calcularHabilitados`": {
+      "status": "passed",
+      "lastRunTimestamp": 1795729672256
+    },
+    "1.3 Pruebas de propiedad de orden e idempotencia": {
+      "status": "passed",
+      "lastRunTimestamp": 1795729674896
+    },
+    "2.2 Pruebas de propiedad del validador": {
+      "status": "passed",
+      "lastRunTimestamp": 1795729887741
+    }
+  },
+  "executionHistory": {
+    "1.1 Crear `src/util/calcular-habilitados.js`": [
+      {
+        "executionId": "788d0ffc-b3fe-480e-8230-06203f08c236",
+        "chatSessionId": "sess_35270edc-7fe3-4c90-aa4a-df1f046c1785",
+        "timestamp": 1795729575645
+      },
+      {
+        "executionId": "788d0ffc-b3fe-480e-8230-06203f08c236",
+        "chatSessionId": "sess_35270edc-7fe3-4c90-aa4a-df1f046c1785",
+        "timestamp": 1795729580310
+      }
+    ],
+    "2.1 Crear `src/middleware/validar-habilitados.js`": [
+      {
+        "executionId": "788d0ffc-b3fe-480e-8230-06203f08c236",
+        "chatSessionId": "sess_35270edc-7fe3-4c90-aa4a-df1f046c1785",
+        "timestamp": 1795729575722
+      },
+      {
+        "executionId": "788d0ffc-b3fe-480e-8230-06203f08c236",
+        "chatSessionId": "sess_35270edc-7fe3-4c90-aa4a-df1f046c1785",
+        "timestamp": 1795729755294
+      }
+    ],
+    "3.1 Crear `src/routes/habilitados.js` y montarlo en `src/app.js`": [
+      {
+        "executionId": "788d0ffc-b3fe-480e-8230-06203f08c236",
+        "chatSessionId": "sess_35270edc-7fe3-4c90-aa4a-df1f046c1785",
+        "timestamp": 1795729575775
+      },
+      {
+        "executionId": "788d0ffc-b3fe-480e-8230-06203f08c236",
+        "chatSessionId": "sess_35270edc-7fe3-4c90-aa4a-df1f046c1785",
+        "timestamp": 1795729937141
+      }
+    ],
+    "4. Checkpoint - Verificar funcionalidad y cobertura": [
+      {
+        "executionId": "788d0ffc-b3fe-480e-8230-06203f08c236",
+        "chatSessionId": "sess_35270edc-7fe3-4c90-aa4a-df1f046c1785",
+        "timestamp": 1795729575823
+      },
+      {
+        "executionId": "788d0ffc-b3fe-480e-8230-06203f08c236",
+        "chatSessionId": "sess_35270edc-7fe3-4c90-aa4a-df1f046c1785",
+        "timestamp": 1795730332653
+      }
+    ],
+    "5.1 Ampliar `.github/workflows/ci.yml` con gates de seguridad": [
+      {
+        "executionId": "788d0ffc-b3fe-480e-8230-06203f08c236",
+        "chatSessionId": "sess_35270edc-7fe3-4c90-aa4a-df1f046c1785",
+        "timestamp": 1795729575859
+      },
+      {
+        "executionId": "788d0ffc-b3fe-480e-8230-06203f08c236",
+        "chatSessionId": "sess_35270edc-7fe3-4c90-aa4a-df1f046c1785",
+        "timestamp": 1795730466102
+      }
+    ],
+    "5.2 Ampliar CI con job de pruebas y cobertura": [
+      {
+        "executionId": "788d0ffc-b3fe-480e-8230-06203f08c236",
+        "chatSessionId": "sess_35270edc-7fe3-4c90-aa4a-df1f046c1785",
+        "timestamp": 1795729575904
+      },
+      {
+        "executionId": "788d0ffc-b3fe-480e-8230-06203f08c236",
+        "chatSessionId": "sess_35270edc-7fe3-4c90-aa4a-df1f046c1785",
+        "timestamp": 1795730468164
+      }
+    ],
+    "6. Checkpoint final - Verificar gates y pruebas": [
+      {
+        "executionId": "788d0ffc-b3fe-480e-8230-06203f08c236",
+        "chatSessionId": "sess_35270edc-7fe3-4c90-aa4a-df1f046c1785",
+        "timestamp": 1795729575941
+      },
+      {
+        "executionId": "f14a1927-9a8a-4be1-8b36-b0c50bcecde7",
+        "chatSessionId": "sess_35270edc-7fe3-4c90-aa4a-df1f046c1785",
+        "timestamp": 1795730891708
+      }
+    ]
+  }
+}
