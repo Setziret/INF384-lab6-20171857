@@ -37,13 +37,13 @@ Implementación del endpoint `POST /habilitados` con middleware de validación, 
     - Lista de 5001 elementos → 400; lista de 5000 válidos responde en < 2 s.
     - _Requirements: 2.1, 2.2, 4.1, 4.2, 4.3_
 
-- [ ] 3. Endpoint y cableado
-  - [~] 3.1 Crear `src/routes/habilitados.js` y montarlo en `src/app.js`
+- [x] 3. Endpoint y cableado
+  - [x] 3.1 Crear `src/routes/habilitados.js` y montarlo en `src/app.js`
     - `router.post('/', validarHabilitados, handler)` que llame a `calcularHabilitados(repositorio.listar(), req.body.aprobados)` y responda 200 con el arreglo.
     - Registrar `app.use('/habilitados', require('./routes/habilitados'))` antes del `errorHandler`.
     - No modificar `src/middleware/error-handler.js` (ya existe y cumple 3.2).
     - _Requirements: 1.1, 2.1, 3.1, 4.1_
-  - [ ]* 3.2 Pruebas de integración del endpoint con supertest
+  - [x]* 3.2 Pruebas de integración del endpoint con supertest
     - Caso funcional del enunciado: `{"aprobados": ["1INF25","1INF27","1INF49"]}` → 200 con habilitados correctos.
     - Lista vacía → 200 con todos los cursos sin requisitos (más los que no requieren aprobados).
     - Mock del repositorio que lanza → 500 genérico sin stack trace ni rutas (verifica `error-handler` existente).
