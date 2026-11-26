@@ -64,7 +64,7 @@ Implementación del endpoint `POST /habilitados` con middleware de validación, 
     - Configurar el umbral en `jest.config.js` (`coverageThreshold: { global: { lines: 80 } }` o `include` de los archivos nuevos) para que el job falle si no se alcanza.
     - _Requirements: 5.1_
 
-- [~] 6. Checkpoint final - Verificar gates y pruebas
+- [x] 6. Checkpoint final - Verificar gates y pruebas
   - Ensure all tests pass, ask the user if questions arise.
   - Confirmar que el CI ejecuta los dos gates (npm audit y gitleaks) y el job de pruebas con cobertura en cada PR.
   - _Requirements: 5.1, gates de seguridad_
