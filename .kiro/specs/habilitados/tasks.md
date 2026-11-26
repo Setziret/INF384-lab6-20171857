@@ -49,7 +49,7 @@ Implementación del endpoint `POST /habilitados` con middleware de validación, 
     - Mock del repositorio que lanza → 500 genérico sin stack trace ni rutas (verifica `error-handler` existente).
     - _Requirements: 1.1, 1.2, 3.2_
 
-- [~] 4. Checkpoint - Verificar funcionalidad y cobertura
+- [x] 4. Checkpoint - Verificar funcionalidad y cobertura
   - Ensure all tests pass, ask the user if questions arise.
   - Ejecutar `npx jest --run --coverage` y confirmar cobertura de líneas ≥ 80% en los archivos nuevos (`validar-habilitados.js`, `calcular-habilitados.js`, `habilitados.js`).
   - _Requirements: 5.1_
