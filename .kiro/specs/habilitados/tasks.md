@@ -22,16 +22,16 @@ Implementación del endpoint `POST /habilitados` con middleware de validación, 
     - **Validates: Requirements 1.5**
     - Verificar subsecuencia de índices crecientes y equivalencia con la lista deduplicada.
 
-- [ ] 2. Middleware de validación
-  - [~] 2.1 Crear `src/middleware/validar-habilitados.js`
+- [x] 2. Middleware de validación
+  - [x] 2.1 Crear `src/middleware/validar-habilitados.js`
     - Validar en orden: existencia y tipo arreglo, tipo de elementos, límite de 5000, patrón `^[0-9A-Z]{4,12}$`.
     - Respuestas 400 con mensajes descriptivos que no reflejen el valor recibido.
     - _Requirements: 2.1, 3.1, 3.3, 4.1, 4.2, 4.3_
-  - [ ]* 2.2 Pruebas de propiedad del validador
+  - [x]* 2.2 Pruebas de propiedad del validador
     - **Property 4: Rechazo de formatos de código inválidos**
     - **Validates: Requirements 3.1, 3.3**
     - Generar strings maliciosas (con `<script>`, `/`, null bytes, unicode) y verificar 400 sin eco del valor.
-  - [ ]* 2.3 Pruebas de ejemplo del validador
+  - [x]* 2.3 Pruebas de ejemplo del validador
     - `{"aprobados": "1INF25"}` (string), número, objeto, null, booleano → 400.
     - JSON malformado, campo ausente → 400.
     - Lista de 5001 elementos → 400; lista de 5000 válidos responde en < 2 s.
