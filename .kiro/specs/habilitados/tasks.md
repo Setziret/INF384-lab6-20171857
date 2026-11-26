@@ -54,12 +54,12 @@ Implementación del endpoint `POST /habilitados` con middleware de validación, 
   - Ejecutar `npx jest --run --coverage` y confirmar cobertura de líneas ≥ 80% en los archivos nuevos (`validar-habilitados.js`, `calcular-habilitados.js`, `habilitados.js`).
   - _Requirements: 5.1_
 
-- [ ] 5. Gates de seguridad y CI
-  - [~] 5.1 Ampliar `.github/workflows/ci.yml` con gates de seguridad
+- [x] 5. Gates de seguridad y CI
+  - [x] 5.1 Ampliar `.github/workflows/ci.yml` con gates de seguridad
     - Agregar paso `npm audit --audit-level=high` (bloquea en vulnerabilidades high/critical) en pull request y main.
     - Agregar paso `gitleaks detect` con umbral cero hallazgos (usar la acción `gitleaks/gitleaks-action@v2` o `gitleaks/gitleaks` en contenedor) en pull request y main.
     - _Requirements: gates SCA y secretos (sección Security Gates de design.md)_
-  - [~] 5.2 Ampliar CI con job de pruebas y cobertura
+  - [x] 5.2 Ampliar CI con job de pruebas y cobertura
     - Ejecutar `npm ci`, luego `npx jest --run --coverage` con `coverageThreshold` de 80% de líneas sobre los archivos de `src/` (el criterio del laboratorio 5.1 exige cobertura de la nueva ruta no menor a 80%).
     - Configurar el umbral en `jest.config.js` (`coverageThreshold: { global: { lines: 80 } }` o `include` de los archivos nuevos) para que el job falle si no se alcanza.
     - _Requirements: 5.1_
